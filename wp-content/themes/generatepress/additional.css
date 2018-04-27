@@ -1,0 +1,199 @@
+Saved Close
+
+
+
+
+
+
+
+Back
+Customizing
+Additional CSS
+Help /*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+.welcome-box{
+	background-color: white;
+    width: 100%;
+	text-align:center;
+	padding-top:2%;
+	padding-bottom:1%;
+	margin-top: 2%;
+}
+
+.welcome-box:before{
+    display: block;
+}
+
+.mission-box{
+   	width: 100%;
+	text-align:center;
+	padding-top:2%;
+	padding-bottom:2%;
+	margin-top:2%;
+}
+
+.mission-box:before{
+    display: block;
+}
+
+.flex-rectangle-home{
+	background-color:white;
+    width: 100%;
+	margin:auto;
+	text-align:center;
+	padding-top:2.5%;
+	padding-bottom:2.5%;
+	padding-left:1%;
+	padding-right:1%;
+	margin-top:2.5%;
+	overflow:hidden;
+}
+
+.flex-square-home-left{
+    float:left;
+	padding-top: 2.5%;
+    padding-bottom: 2.5%;
+	width: 18%;
+	border-style:solid;
+	border-width:1px;
+}
+
+.flex-square-home-center{
+    margin:0 auto;
+	padding-top: 2.5%;
+    padding-bottom: 2.5%;
+	width:18%;
+	border-style:solid;
+	border-width:1px;
+}
+
+.flex-square-home-right{
+    float:right;
+	padding-top: 2.5%;
+    padding-bottom: 2.5%;
+	width:18%;
+	border-style:solid;
+	border-width:1px;
+}
+
+.header-widget{
+	margin-right:15%
+}
+
+
+@media only screen and (max-width: 800px) {
+	.flex-rectangle-home{
+		border-style:none;
+	}
+
+	.flex-square-home-right, .flex-square-home-left, .flex-square-home-center{
+		display:block;
+		float:none;
+		width:100%;
+		margin-top:2.5%;
+		font-size:
+	}
+
+	.header-widget{
+		display:none;
+	}
+}
+
+
+
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+.welcome-box{
+	background-color: white;
+    width: 100%;
+	text-align:center;
+	padding-top:2%;
+	padding-bottom:1%;
+	margin-top: 2%;
+}
+
+.welcome-box:before{
+    display: block;
+}
+
+.mission-box{
+   	width: 100%;
+	text-align:center;
+	padding-top:2%;
+	padding-bottom:2%;
+	margin-top:2%;
+}
+
+.mission-box:before{
+    display: block;
+}
+
+.flex-rectangle-home{
+	background-color:white;
+    width: 100%;
+	margin:auto;
+	text-align:center;
+	padding-top:2.5%;
+	padding-bottom:2.5%;
+	padding-left:1%;
+	padding-right:1%;
+	margin-top:2.5%;
+	overflow:hidden;
+}
+
+.flex-square-home-left{
+    float:left;
+	padding-top: 2.5%;
+    padding-bottom: 2.5%;
+	width: 18%;
+	border-style:solid;
+	border-width:1px;
+}
+
+.flex-square-home-center{
+    margin:0 auto;
+	padding-top: 2.5%;
+    padding-bottom: 2.5%;
+	width:18%;
+	border-style:solid;
+	border-width:1px;
+}
+
+.flex-square-home-right{
+    float:right;
+	padding-top: 2.5%;
+    padding-bottom: 2.5%;
+	width:18%;
+	border-style:solid;
+	border-width:1px;
+}
+
+.header-widget{
+	margin-right:15%
+}
+
+@media only screen and (max-width: 800px) {
+	.flex-rectangle-home{
+		border-style:none;
+	}
+
+	.flex-square-home-right, .flex-square-home-left, .flex-square-home-center{
+		display:block;
+		float:none;
+		width:100%;
+		margin-top:2.5%;
+		font-size:
+	}
+
+	.header-widget{
+		display:none;
+	}
+}
